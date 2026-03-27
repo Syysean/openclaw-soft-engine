@@ -13,7 +13,7 @@
 
 ## 示意图
 ```mermaid
-flowchart LR
+graph TD
     %% 定义样式
     classDef user fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     classDef proxy fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,stroke-dasharray: 5 5;
