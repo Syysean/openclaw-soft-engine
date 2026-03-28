@@ -95,15 +95,15 @@ wsl --install
 ### 第一步：配置 Git 代理（国内网络可选）
 
 ```powershell
-git config --global http.proxy [http://127.0.0.1:10808](http://127.0.0.1:10808)
-git config --global https.proxy [http://127.0.0.1:10808](http://127.0.0.1:10808)
+git config --global http.proxy http://127.0.0.1:10808
+git config --global https.proxy http://127.0.0.1:10808
 ```
 
 ### 第二步：克隆 OpenClaw 仓库
 
 ```powershell
 cd D:\AI
-git clone --depth 1 [https://github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
+git clone --depth 1 https://github.com/openclaw/openclaw
 cd openclaw
 ```
 
@@ -111,7 +111,7 @@ cd openclaw
 
 ```powershell
 # 克隆本仓库部署模板
-git clone [https://github.com/Syysean/openclaw-expert-matrix](https://github.com/Syysean/openclaw-expert-matrix) D:\AI\openclaw-deploy
+git clone https://github.com/Syysean/openclaw-expert-matrix D:\AI\openclaw-deploy
 
 # 覆盖核心网关、编排文件与环境变量
 Copy-Item D:\AI\openclaw-deploy\proxy.js D:\AI\openclaw\proxy.js -Force
