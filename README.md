@@ -109,6 +109,7 @@ cd openclaw
 
 ### 第三步：将本仓库文件同步到 openclaw 目录
 
+```powershell
 # 克隆本仓库部署模板
 git clone https://github.com/Syysean/openclaw-soft-engine D:\AI\openclaw-deploy
 
