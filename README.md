@@ -17,7 +17,7 @@ This guide documents the full evolution from v1.0 "Six-Model Matrix" to v2.0 "So
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/openclaw-soft-engine.svg)
+![Architecture Diagram](images/openclaw-soft-engine-EN.svg)
 
 ## Who is this for?
 

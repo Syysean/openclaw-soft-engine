@@ -13,7 +13,7 @@
 
 ## 示意图
 
-![🦞 OpenClaw × openclaw-soft-engine](images/openclaw-soft-engine.svg)
+![🦞 OpenClaw × openclaw-soft-engine](images/openclaw-soft-engine-CN.svg)
 
 ## 📑 目录
 
