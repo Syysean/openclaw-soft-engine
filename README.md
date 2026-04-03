@@ -15,7 +15,20 @@
 
 OpenClaw Soft Engine is a production-oriented execution layer that upgrades OpenClaw with structured routing, multi-expert model orchestration, and hardened guardrails. It combines a DAG-based task protocol with multi-expert model routing to improve execution control, route-level isolation, and concurrent task handling.
 
-This guide documents the full evolution from v1.0 "Six-Model Matrix" to v2.0 "Soft Execution Engine."
+This guide documents the evolution from v1.0 "Six-Model Matrix" to v2.0 "Soft Execution Engine."
+
+## Why Soft Engine?
+
+A comparison between a vanilla OpenClaw setup and the Soft Engine execution layer.
+
+| Capability | Vanilla OpenClaw | Soft Engine v2.0 |
+| :--- | :---: | :---: |
+| **Execution Model** | Linear prompt flow | DAG-based execution (`PLAN` / `CHECKPOINT`) |
+| **Model Routing** | Single-model or manual switching | Automatic multi-expert routing (Text / Vision / Reasoning / Code) |
+| **Rate Limit Handling** | Shared API key (prone to 429 under concurrency) | Route-level API key isolation |
+| **Memory Safety** | No built-in safeguards | Container memory limit (512MB) + tool timeouts (45s) |
+| **Multi-Modal Safety** | No payload validation | Cross-modal sanitization (prevents invalid requests) |
+| **Production Readiness** | Requires custom hardening | Preconfigured guardrails and deployment pattern |
 
 ## Architecture Diagram
 
