@@ -4,6 +4,8 @@
 [![Windows 11](https://img.shields.io/badge/OS-Windows_11-0078D4?logo=windows&logoColor=white)](https://www.microsoft.com/windows/windows-11)
 [![Protocol](https://img.shields.io/badge/Protocol-DAG_Scheduling-orange)](workspace/AGENTS.md)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/Syysean/openclaw-soft-engine?color=orange&logo=github)](https://github.com/Syysean/openclaw-soft-engine/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/Syysean/openclaw-soft-engine?logo=git)](https://github.com/Syysean/openclaw-soft-engine/commits/main)
 
 本项目不仅仅是 OpenClaw 的配置模板，而是一套完整的 **Agent 软执行引擎 (Soft Execution Engine)** 实战方案。它通过强约束的 **DAG (有向无环图) 任务协议** 和 **多专家模型路由**，将 OpenClaw 从一个简单的聊天机器人，进化为具备物理隔离、并发调度和自我纠错能力的工业级 AI 助手。
 

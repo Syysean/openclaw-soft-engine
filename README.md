@@ -8,6 +8,8 @@
 [![Windows 11](https://img.shields.io/badge/OS-Windows_11-0078D4?logo=windows&logoColor=white)](https://www.microsoft.com/windows/windows-11)
 [![Protocol](https://img.shields.io/badge/Protocol-DAG_Scheduling-orange)](workspace/AGENTS.md)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/Syysean/openclaw-soft-engine?color=orange&logo=github)](https://github.com/Syysean/openclaw-soft-engine/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/Syysean/openclaw-soft-engine?logo=git)](https://github.com/Syysean/openclaw-soft-engine/commits/main)
 
 > **Note:** This project is a deployment template and enhancement layer for OpenClaw. It is not the official OpenClaw distribution.
 
